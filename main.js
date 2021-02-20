@@ -25,17 +25,18 @@ readMoreBtn3.addEventListener("click", (e) => {
 	text3.classList.toggle("showmore");
 	console.log("ds");
 });
-readMoreBtn4.addEventListener("click", (e) => {
-	text4.classList.toggle("showmore");
-	console.log("ds");
-});
-readMoreBtn5.addEventListener("click", (e) => {
-	text5.classList.toggle("showmore");
-	console.log("ds");
-});
+// readMoreBtn4.addEventListener("click", (e) => {
+// 	text4.classList.toggle("showmore");
+// 	console.log("ds");
+// });
+// readMoreBtn5.addEventListener("click", (e) => {
+// 	text5.classList.toggle("showmore");
+// 	console.log("ds");
+// });
 window.addEventListener("scroll", (e) => {
 	if (window.pageYOffset >= 20) {
 		navbar.classList.add("sticky");
+		console.log("he");
 	} else {
 		navbar.classList.remove("sticky");
 	}

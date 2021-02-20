@@ -530,6 +530,7 @@ a {
 	background-color: #373332;
 	background-size: cover;
 	z-index: 1;
+
 	color: white;
 	transition: 0.5s ease-in-out;
 	padding: 10px;
@@ -568,6 +569,7 @@ a {
 	max-width: 600px;
 	transition: 0.5s ease-in-out;
 	margin-bottom: 55px;
+
 	position: relative;
 	border-radius: 20px;
 	/* background-image: url("./img/img-1.png"); */
@@ -609,7 +611,8 @@ a {
 	flex-direction: column;
 	height: 80vh;
 	background-color: #333;
-	max-width: 1400px;
+	background-size: cover;
+	background-attachment: fixed;
 	min-width: 400px;
 	width: 100%;
 	flex-wrap: wrap;
@@ -655,9 +658,11 @@ a {
 }
 .c1 span {
 	padding-left: 20px;
+	color: white;
 }
 .c2 span {
 	padding-left: 20px;
+	color: white;
 }
 .c2 {
 	display: flex;
@@ -674,6 +679,10 @@ a {
 }
 .c3 span {
 	padding-left: 20px;
+	color: white;
+}
+.c3 span a {
+	color: white;
 }
 @keyframes text_reveal_box {
 	50% {
